@@ -2,6 +2,7 @@ import {useState, useEffect} from "react"
 const API_URL = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd'
 
 import HomePage from "./pages/home"
+import {Routes, Route} from './about'
 import {Routes, Route} from 'react-router'
 
 
